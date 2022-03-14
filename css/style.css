@@ -61,6 +61,8 @@ line-height:1.5em;
 margin:0 auto;
 width:55%;
 }
+
+
 a.button{
 color:#fff;
 background:transparent;
@@ -143,10 +145,14 @@ display:inline-block;
 display:block;
 padding:0 0.5em;
 color:#fff;
+
 text-decoration:none;
 font-size: 0.95em;
 font-weight: 300;
 }
+
+
+
 .top-menu ul li.active a,.top-menu ul li a:hover{
 color: #1eb341;
 }
@@ -972,9 +978,12 @@ height: 53px;
 }
 }
 
+#visible{
 
-/* #portfolio{
+	color:black;
+    text-decoration: none;
+}
+#visible:hover{
 
-	margin: 15em 0;
-	/* padding-bottom: 15em 0; */
-/* } */ 
+color:#1eb341;
+}
